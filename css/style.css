@@ -1,0 +1,374 @@
+/*********************************************
+*
+*               MAIN
+*
+**********************************************/
+/* main {
+  width: 80%;
+  margin: 0 auto;
+} */
+
+header,
+section,
+footer,
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*********************************************
+*
+*               HEADER
+*
+**********************************************/
+header {
+  /* background-color: aqua; */
+  height: 12vh;
+
+  display: flex;
+}
+nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  align-items: center;
+
+  font-size: 1.8rem;
+}
+
+nav a {
+  margin-right: 2rem;
+  /* color: var(--primary-black); */
+  color: var(--a-grey);
+  font-weight: 500;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+/*********************************************
+*
+*               PRIMARY SECTION
+*
+**********************************************/
+.primary-section {
+  height: 88vh;
+  /* background-color: aquamarine; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.primary-section .p-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.primary-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.primary-left h1 {
+  font-size: 4.5rem;
+  color: var(--secondary-black);
+
+  margin-bottom: 2rem;
+}
+
+.primary-left p {
+  font-size: 2rem;
+  color: var(--b-grey);
+}
+
+.appStoreContainer {
+  display: flex;
+  gap: 1rem;
+}
+
+.appStore {
+  font-size: 1.5rem;
+}
+
+/*********************************************
+*
+*               NOTE
+*
+**********************************************/
+.note {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Lora", serif;
+  border: 1px solid var(--primary-black);
+  padding: 4rem 6rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/*********************************************
+*
+*               STEPS CONTAINER
+*
+**********************************************/
+.steps-container {
+  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.steps-container img {
+  width: 90%;
+}
+
+.steps-container h2 {
+  font-size: 3rem;
+}
+
+.step {
+  display: flex;
+}
+
+.step .step-1-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--primaryColor);
+}
+
+.step h3 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.step p {
+  font-size: 1.8rem;
+  color: var(--b-grey);
+  margin-bottom: 1.2rem;
+  line-height: 26px;
+}
+
+.left-content,
+.right-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/*********************************************
+*
+*               START YOUR BRAND
+*
+**********************************************/
+/* .start-your-brand {
+  background-color: var(--f-grey);
+} */
+
+/*********************************************
+*
+*               incredibly
+*
+**********************************************/
+.incredibly-container {
+  margin: 10rem auto;
+}
+
+.incredibly-container h2 {
+  margin: 5rem 0;
+}
+
+.incredibly-container h2 {
+  font-size: 3rem;
+}
+
+.incredibly {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.incredibly h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 2.5rem 0 1.5rem 0;
+}
+
+.incredibly p {
+  font-size: 1.6rem;
+  color: var(--b-grey);
+}
+
+/*********************************************
+*
+*               WE LOVE DUAKAAN
+*
+**********************************************/
+.customer {
+  background-color: var(--g-grey);
+  width: 100%;
+  padding: 7rem 0;
+}
+
+.customer h2 {
+  font-size: 3.5rem;
+}
+
+.customer p {
+  font-size: 1.8rem;
+  margin: 1.5rem 0 4rem;
+}
+
+.customer h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 3rem 0;
+}
+
+.name-about {
+  font-size: 1.8rem;
+}
+
+.name-about .name {
+  font-weight: 600;
+}
+
+.name-about .about {
+  color: var(--c-grey);
+  margin-left: 1rem;
+}
+
+/*********************************************
+*
+*               GROW YOUR STORE
+*
+**********************************************/
+.grow-store {
+  margin: 9rem auto;
+}
+
+.grow-store h2 {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.grow-store-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.grow-store-container img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.primary-title {
+  font-size: 1.5rem;
+  color: var(--b-grey);
+  margin: 2.5rem 0 1rem;
+}
+.secondary-title {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/*********************************************
+*
+*               COMPANY
+*
+**********************************************/
+.company {
+  background-color: var(--g-grey);
+  width: 100%;
+  padding: 5rem 0;
+}
+
+.company h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin: 3rem 0;
+}
+
+.company-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*********************************************
+*
+*               CHASE YOUR DREAM 
+*
+**********************************************/
+.chase-your-dream {
+  background-image: url(/img/banner.jpg);
+  background-size: cover;
+
+  /* background-color: var(--primaryColor); */
+
+  padding: 5rem 0;
+  width: 100%;
+  color: var(--white);
+}
+
+.chase-your-dream h2 {
+  font-size: 3.5rem;
+  margin: 2rem 0;
+}
+
+.chase-your-dream p {
+  font-size: 2rem;
+  width: 50%;
+}
+
+.btn-container {
+  margin: 4rem 0;
+}
+
+.chaseBTN {
+  background-color: var(--white);
+  color: var(--primaryColor);
+  font-weight: 500;
+}
+
+/*********************************************
+*
+*               FOOTER
+*
+**********************************************/
+footer {
+  font-size: 1.8rem;
+  /* display: ; */
+}
+
+footer a {
+  color: var(--b-grey);
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 6rem 0 4rem;
+}
+
+.footer-content li {
+  padding-bottom: 2rem;
+}
+
+/* COPY RIGHT */
+.copyRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  color: var(--c-grey);
+  padding: 2rem 0;
+}
+
+.india {
+  display: flex;
+  gap: 1rem;
+}
